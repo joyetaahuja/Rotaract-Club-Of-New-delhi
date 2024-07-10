@@ -19,7 +19,9 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/message", messageRouter);
 app.use('/api/volunteers', volunteerRoutes);
-app.get('/send',(req,res)=>{
+
+
+app.get('/',(req,res)=>{
   res.send("checkinggg")
 })
 
