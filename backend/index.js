@@ -8,7 +8,7 @@ const PORT = 4000;
 const app = express();
 dotenv.config({ path: "./config.env" });
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['https://rotaract-club-of-new-delhi.vercel.app'],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"]
 }))
