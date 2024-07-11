@@ -1,7 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import { dbConnection } from "./database/dbConnection.js";
 import messageRouter from "./router/messageRouter.js";
 import volunteerRoutes from './router/volunteerRoutes.js';
 import mongoose from 'mongoose';

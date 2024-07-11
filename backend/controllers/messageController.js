@@ -33,4 +33,3 @@ export const postMessage = async (req, res, next) => {
   }
 };
 
-//npm i validator
